@@ -1,6 +1,6 @@
 {
   "name": "netlify-geoip",
-  "description": "Testing out static JSON API geolocation system",
+  "description": "Testing out POC static JSON API geolocation system",
   "version": "0.0.1",
   "author": "mirshko",
   "ava": {

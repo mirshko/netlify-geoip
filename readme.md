@@ -1,6 +1,6 @@
 # netlify-geoip
 
-Testing out static JSON API geolocation system
+Testing out POC static JSON API geolocation system
 
 ## Setup
 
