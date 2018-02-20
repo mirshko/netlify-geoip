@@ -8,12 +8,13 @@
   },
   "bugs": "https://github.com/mirshko/netlify-geoip/issues",
   "dependencies": {
+    "modern-normalize": "^0.4.0",
     "reshape-standard": "^3.0.0",
+    "spike": "^2.0.0",
     "spike-css-standards": "^3.0.0",
     "spike-js-standards": "^2.0.2",
     "spike-optimize": "^0.1.2",
-    "spike-page-id": "^1.0.0",
-    "spike": "^2.0.0"
+    "spike-page-id": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^0.19.1",

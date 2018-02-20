@@ -13,6 +13,7 @@ module.exports = {
     minify: env === 'production'
   }),
   postcss: cssStandards({
+    paths: ['node_modules'],
     minify: env === 'production',
     warnForDuplicates: env !== 'production'
   }),
