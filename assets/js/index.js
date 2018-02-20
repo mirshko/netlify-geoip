@@ -5,7 +5,7 @@ function fetchLocale () {
   fetch('/locale.json')
     .then(res => res.json())
     .then(data => {
-      locale.textContent = `${data.locale} locale`
+      locale.textContent = data.locale || alert('Needs to be running on Netlify!')
     })
     .catch(err => console.log(err))
 }

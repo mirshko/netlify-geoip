@@ -17,7 +17,6 @@
     "spike-page-id": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
     "rimraf": "^2.6.1",
     "snazzy": "^7.0.0",
     "standard": "^10.0.2"
@@ -30,7 +29,6 @@
     "lint": "standard | snazzy",
     "precommit": "npm run lint -s",
     "pretest": "npm run lint -s",
-    "test": "NODE_ENV=test ava",
     "start": "spike watch",
     "build": "spike compile",
     "prod": "NODE_ENV=production spike compile -e production"

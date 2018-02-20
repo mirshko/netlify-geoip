@@ -1,4 +1,6 @@
 /locale.json  /locales/us.json       200  Country=us
 /locale.json  /locales/de.json       200  Country=de
 /locale.json  /locales/ca.json       200  Country=ca
+/locale.json  /locales/nl.json       200  Country=nl
+/locale.json  /locales/nl.json       200  Language=nl
 /locale.json  /locales/default.json  200
