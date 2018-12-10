@@ -83,7 +83,7 @@ const IndexPage = () => {
         <code>de.json ~> {'{ "locale": "Germany" }'}</code>
       </p>
 
-      <h4>Hello {JSON.stringify(locale)}</h4>
+      <h4>Hello {locale.locale}</h4>
       <button
         onClick={() =>
           fetch("/locale.json")

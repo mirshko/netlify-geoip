@@ -1,8 +1,8 @@
 {
   "name": "netlify-geoip",
-  "description": "Testing out POC static JSON API geolocation system",
+  "description": "This is a proof of concept Static JSON GeoIP API using Netlify’s redirect & rewrite rules.",
   "version": "1.0.0",
-  "author": "mirshko",
+  "author": "mirshko <jeff@reiner.design>",
   "dependencies": {
     "gatsby": "^2.0.53",
     "gatsby-image": "^2.0.20",
