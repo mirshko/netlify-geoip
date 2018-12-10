@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 
-import favicon from "../../images/favicon.ico";
-
 import Corner from "../Corner";
 
 import "modern-normalize";
@@ -25,7 +23,7 @@ const Layout = ({ children }) => (
       <>
         <Helmet>
           <title>{data.site.siteMetadata.title}</title>
-          <link rel="icon" href={favicon} />
+          <link rel="icon" href="./favicon.ico" />
           <meta
             name="description"
             content="This is a proof of concept Static JSON GeoIP API using Netlify’s redirect & rewrite rules."
