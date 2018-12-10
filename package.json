@@ -1,36 +1,29 @@
 {
   "name": "netlify-geoip",
   "description": "Testing out POC static JSON API geolocation system",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "mirshko",
-  "ava": {
-    "verbose": "true"
-  },
-  "bugs": "https://github.com/mirshko/netlify-geoip/issues",
   "dependencies": {
-    "modern-normalize": "^0.4.0",
-    "reshape-standard": "^3.0.0",
-    "spike": "^2.0.0",
-    "spike-css-standards": "^3.0.0",
-    "spike-js-standards": "^2.0.2",
-    "spike-optimize": "^0.1.2",
-    "spike-page-id": "^1.0.0"
+    "gatsby": "^2.0.53",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-netlify": "^2.0.6",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "modern-normalize": "^0.5.0",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "react-helmet": "^5.2.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\" \"src/**/*.css\""
   },
   "devDependencies": {
-    "rimraf": "^2.6.1",
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.2"
+    "prettier": "^1.15.2"
   },
-  "homepage": "https://github.com/mirshko/netlify-geoip",
-  "main": "app.js",
-  "private": true,
   "repository": "https://github.com/mirshko/netlify-geoip",
-  "scripts": {
-    "lint": "standard | snazzy",
-    "precommit": "npm run lint -s",
-    "pretest": "npm run lint -s",
-    "start": "spike watch",
-    "build": "spike compile",
-    "prod": "NODE_ENV=production spike compile -e production"
-  }
+  "homepage": "https://github.com/mirshko/netlify-geoip",
+  "bugs": "https://github.com/mirshko/netlify-geoip/issues"
 }
